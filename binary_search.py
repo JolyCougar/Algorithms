@@ -3,7 +3,7 @@ def binary_search(list_for_search: list, item: int):
     high = len(list_for_search) - 1  # Хранится верхняя граница списка
 
     while low <= high:  # Условие Пока эта часть не сократится до одного элемента
-        mid = (low + high)  # Проверяем средний элемент
+        mid = (low + high) // 2  # Проверяем средний элемент
         guess = list_for_search[mid]
         if guess == item:  # Значение найдено
             return mid
