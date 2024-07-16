@@ -7,6 +7,5 @@ class Solution:
         return first[2:]
 
 
-
 test = Solution()
 print(test.addBinary(a='1', b='1'))
