@@ -24,10 +24,10 @@ class Solution:
         #
         # return current
 
+
 test = Solution()
 print(test.climbStairs(n=6))
 # 6 - 13(+5)
 # 5 - 8(+3)
 # 4 - 5(+2)
 # 3 - 3
-
