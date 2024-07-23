@@ -3,7 +3,7 @@ import random  # Импортируем их
 
 pygame.init()  # Инициализируем pygame
 
-win = pygame.display.set_mode((800, 800))  # Создадим окно 600х600
+win = pygame.display.set_mode((600, 600))  # Создадим окно 600х600
 
 pygame.display.set_caption("Serpinsky triangle")  # Дадим окну имя
 
